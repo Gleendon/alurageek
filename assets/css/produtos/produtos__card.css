@@ -1,0 +1,32 @@
+.produtos__card{
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+
+   width: 176px;
+   height: 252px;
+}
+
+.card__titulo{
+   font-size: 0.875rem;
+   color: #464646;
+   font-weight: 500;
+}
+
+.card__preco{
+   font-size: 1rem;
+   color: #464646;
+   font-weight: 700;
+}
+
+.card__botao{
+   font-size: 1rem;
+   color: #2a7ae4;
+   font-weight: 700;
+}
+
+.card__botao:active, .card__botao:visited{
+   font-size: 1rem;
+   color: #2a7ae4;
+   font-weight: 700;
+}

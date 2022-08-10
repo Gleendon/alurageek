@@ -1,0 +1,11 @@
+.destaque{
+   align-items: flex-end;
+   background-image: url("../../img/banner-image.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   height: 352px;
+   justify-content: center;
+   width: 100%;
+}

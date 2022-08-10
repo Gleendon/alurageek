@@ -1,0 +1,46 @@
+.faleConosco{
+   display: flex;
+   flex-direction: column;
+}
+
+.faleConosco__form{
+   display: flex;
+   flex-direction: column;
+}
+
+.faleConosco__titulo{
+   color: #464646;
+   font-size: 1rem;
+   padding-bottom: 8px;
+}
+
+.form__input{
+   border: none;
+   height: 56px;
+   margin-bottom: 16px;
+   padding-top: 16px;
+   padding-left: 12px;
+   width: 560px;
+}
+
+.form__textarea{
+   border: none;
+   height: 82px;
+   margin-bottom: 8px;
+   padding-top: 16px;
+   padding-left: 12px;
+   resize: none;
+   width: 560px;
+}
+
+.form__input:focus, .form__textarea:focus{
+   outline: none;
+}
+
+.form__botao{
+   background: #2A7AE4;
+   border: none;
+   color: #ffffff;
+   height: 51px;
+   width: 165px;
+}

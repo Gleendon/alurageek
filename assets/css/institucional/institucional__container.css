@@ -1,0 +1,6 @@
+.institucional__container{
+   display: flex;
+   justify-content: space-between;
+   width: 1136px;
+   padding: 64px 0;
+}

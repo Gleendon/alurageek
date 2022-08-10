@@ -1,0 +1,20 @@
+.cabecalho__pesquisar{
+   align-items: center;
+   background: #F5F5F5;
+   border-radius: 20px;
+   display: flex;
+   font-size: 0.9rem;
+   height: 40px;
+   justify-content: center;
+   width: 393px;
+}
+
+.pesquisar__input{
+   background: #F5F5F5;
+   border: none;
+   width: 350px;
+}
+
+.pesquisar__input:focus{
+   outline: 0;
+}

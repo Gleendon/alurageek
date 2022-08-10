@@ -1,0 +1,10 @@
+.institucional__nav{
+   display: flex;
+   flex-direction: column;
+}
+
+.nav__link{
+   font-size: 1rem;
+   color: #464646;
+   padding-bottom: 24px;
+}

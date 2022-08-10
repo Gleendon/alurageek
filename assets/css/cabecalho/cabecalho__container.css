@@ -1,0 +1,8 @@
+.cabecalho_container{
+   align-items: center;
+   display: flex;
+   height: 115px;
+   justify-content: space-between;
+   padding: 32px 0px;
+   width: 1136px;
+}

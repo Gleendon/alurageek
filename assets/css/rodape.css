@@ -1,0 +1,14 @@
+.rodape{
+   height: 102px;
+   padding-top: 32px;
+   text-align: center;
+}
+
+.rodape_decricao{
+   color: #464646;
+   font-size: 1rem;
+}
+
+.rodape__link, .rodape__link:active{
+   color: #464646;
+}
