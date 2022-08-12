@@ -1,7 +1,23 @@
 .institucional{
-   background-color: #EAF2FD;
    display: flex;
+   background-color: #EAF2FD;
    justify-content: center;
-   margin-top: 64px;
-   height: 368px;
+}
+
+@media screen and (min-width: 0){
+   .institucional{
+      margin-top: 16px;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .institucional{
+      margin-top: 32px;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .institucional{
+      margin-top: 64px;
+   }
 }

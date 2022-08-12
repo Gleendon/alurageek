@@ -1,0 +1,26 @@
+.institucional__coluna1{
+   display: flex;
+   row-gap: 16px;
+}
+
+@media screen and (min-width: 0){
+   .institucional__coluna1{
+      flex-direction: column;
+      width: 328px;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .institucional__coluna1{
+      width: 254px;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .institucional__coluna1{
+      flex-direction: row;
+      width: auto;
+      column-gap: 112px;
+      justify-content: space-between;
+   }
+}

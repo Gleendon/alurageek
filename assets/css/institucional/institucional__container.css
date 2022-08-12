@@ -1,6 +1,35 @@
 .institucional__container{
    display: flex;
-   justify-content: space-between;
-   width: 1136px;
-   padding: 64px 0;
+}
+
+.logo__img{
+   width: 176px;
+   height: 50px;
+}
+
+@media screen and (min-width: 0){
+   .institucional__container{
+      flex-wrap: wrap;
+      padding: 16px;
+      row-gap: 16px;
+      justify-content: center;
+   }
+   
+}
+
+@media screen and (min-width: 768px){
+   .institucional__container{
+      flex-wrap: nowrap;
+      padding: 32px;
+      column-gap: 16px;
+      align-items: center;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .institucional__container{
+      justify-content: space-between;
+      width: 1136px;
+      padding: 64px 0;
+   }
 }

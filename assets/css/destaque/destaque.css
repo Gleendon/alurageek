@@ -5,7 +5,19 @@
    background-repeat: no-repeat;
    background-size: cover;
    display: flex;
-   height: 352px;
    justify-content: center;
    width: 100%;
+}
+
+
+@media screen and (min-width: 0){
+   .destaque{
+      height: 192px;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .destaque{
+      height: 352px;
+   }
 }

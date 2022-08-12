@@ -1,0 +1,17 @@
+.institucional__logo{
+   display: flex;
+}
+
+
+@media screen and (min-width: 0){
+   .institucional__logo{
+      width: 100%;
+      justify-content: center;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .institucional__logo{
+      justify-content: flex-start;
+   }
+}

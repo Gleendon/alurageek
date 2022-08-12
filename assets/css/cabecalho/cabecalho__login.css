@@ -2,6 +2,25 @@
    background-color: #FFFFFF;
    border: 1px solid #2a7ae4;
    color: #2A7AE4;
-   height: 51px;
-   width: 182px;
+}
+
+
+@media screen and (min-width: 0){
+   .login__button{
+      height: 40px;
+      width: 133px;
+   }
+}
+
+@media screen and (min-width: 760px){
+   .login__button{
+      width: 166px;
+   } 
+}
+
+@media screen and (min-width: 1024px){
+   .login__button{
+      height: 51px;
+      width: 182px;
+   }   
 }

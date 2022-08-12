@@ -1,5 +1,25 @@
 .diversos{
    display: flex;
    justify-content: center;
-   margin-top: 64px;
+}
+
+@media screen and (min-width: 0){
+   .diversos{
+      margin-top: 16px;
+      padding: 0 16px;
+   }
+}
+
+@media screen and (min-width: 760px){
+   .diversos{
+      margin-top: 32px;
+      padding: 0 32px;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .diversos{
+      margin-top: 64px;
+      padding: 0 152px;
+   }
 }

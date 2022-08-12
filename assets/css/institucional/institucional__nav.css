@@ -8,3 +8,16 @@
    color: #464646;
    padding-bottom: 24px;
 }
+
+@media screen and (min-width: 0){
+   .institucional__nav{
+      width: 100%;
+      align-items: center;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .institucional__nav{
+      align-items: flex-start;
+   }
+}
