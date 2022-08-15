@@ -1,0 +1,22 @@
+.adm__button{
+   background-color: #FFFFFF;
+   border: 1px solid #2a7ae4;
+   font-weight: 600;
+   color: #2A7AE4;
+}
+
+
+@media screen and (min-width: 0){
+   .adm__button{
+      width: 166px;
+      height: 40px;
+      font-size: 0.875rem;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .adm__button{
+      height: 51px;
+      width: 182px;
+   }   
+}

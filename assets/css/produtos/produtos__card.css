@@ -2,6 +2,17 @@
    display: flex;
    flex-direction: column;
    gap: 8px;
+   position: relative;
+}
+
+.produtos__editar{
+   width: 100%;
+   position: absolute;
+   display: flex;
+   justify-content: flex-end;
+   column-gap: 24px;
+   padding-top: 11px;
+   padding-right: 11px;
 }
 
 .card__titulo{
@@ -26,10 +37,15 @@
    color: #2a7ae4;
 }
 
+
 @media screen and (min-width: 0){
    .produtos__card{
       height: 249px;
       width: 156px;
+   }
+
+   .produtos__card:nth-child(6), .produtos__card:nth-child(5){
+      display: none;
    }
 }
 
@@ -44,5 +60,9 @@
    .produtos__card{
       height: 252px;
       width: 176px;
+   }
+
+   .produtos__card:nth-child(6), .produtos__card:nth-child(5){
+      display: flex;
    }
 }

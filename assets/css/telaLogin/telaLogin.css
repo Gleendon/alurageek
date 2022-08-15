@@ -1,0 +1,23 @@
+.telaLogin{
+   background-color: #F5F5F5;
+   padding: 92px 0;
+}
+
+
+@media screen and (min-width: 0px){
+   .telaLogin{
+      margin-bottom: -16px;
+   }
+}
+
+@media screen and (min-width: 768px){
+   .telaLogin{
+      margin-bottom: -32px;
+   }
+}
+
+@media screen and (min-width: 1024px){
+   .telaLogin{
+      margin-bottom: -64px;
+   }
+}

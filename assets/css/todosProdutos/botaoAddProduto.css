@@ -1,0 +1,19 @@
+.botaoAddProduto{
+   background: #2A7AE4;
+   color: #ffffff;
+   border: none;
+}
+
+@media screen and (min-width: 0px) {
+   .botaoAddProduto{
+      width: 151px;
+      height: 40px;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .botaoAddProduto{
+      width: 164px;
+      height: 51px;
+   }
+}

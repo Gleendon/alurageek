@@ -1,0 +1,102 @@
+.novoProduto__form{
+   display: flex;
+   flex-direction: column;
+   row-gap: 16px;
+   align-items: center;
+}
+
+.novoProduto__campo{
+   display: flex;
+   flex-direction: column;
+   background: #FFFFFF;
+   border-radius: 4px;
+   padding-left: 12px;
+   padding-top: 8px;
+}
+
+.novoProduto__input{
+   border: none;
+   outline: none;
+}
+
+.novoProduto__textarea{
+   resize: none;
+   background: #FFFFFF;
+   border-radius: 4px;
+   border: none;
+   outline: none;
+   font-size: 0.75rem;
+   color: #A2A2A2;
+   font-size: 0.75rem;
+   padding-left: 12px;
+   padding-top: 8px;
+}
+
+.novoProduto__label{
+   font-weight: 400;
+   font-size: 0.75rem;
+   color: #A2A2A2;
+}
+
+.novoProduto__botao{
+   background: #2A7AE4;
+   color: #FFFFFF;
+   border: none;
+}
+
+@media screen and (min-width: 0) {
+   .novoProduto__campo{
+      width: 328px;
+      height: 56px;
+   }
+   
+   .novoProduto__textarea{
+      width: 328px;
+      height: 82px;
+   }
+   
+   .novoProduto__botao{
+      width: 328px;
+      height: 51px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .novoProduto__campo{
+      width: 704px;
+      height: 56px;      
+   }
+   
+   .novoProduto__textarea{
+      width: 704px;
+      height: 82px;
+   }
+   
+   .novoProduto__botao{
+      width: 704px;
+      height: 51px;
+   }
+}
+
+@media screen and (min-width: 1024px) {
+   .novoProduto__campo{
+      width: 559px;
+      height: 56px;
+      padding-left: 12px;
+      padding-top: 8px;
+   }
+   
+   .novoProduto__textarea{
+      width: 559px;
+      height: 82px;
+      font-size: 0.75rem;
+      padding-left: 12px;
+      padding-top: 8px;
+   }
+   
+   .novoProduto__botao{
+      width: 559px;
+      height: 51px;
+   }
+}
+
