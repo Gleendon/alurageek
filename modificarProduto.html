@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>AluraGeek | Login</title>
+   <title>AluraGeek | Cadastrar novo Produto</title>
    <link rel="stylesheet" href="assets/css/reset.css">
    <link rel="stylesheet" href="assets/css/normalize.css">
    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -15,10 +15,10 @@
    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho__link.css">
    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho__pesquisar.css">
 
-   <link rel="stylesheet" href="assets/css/telaLogin/telaLogin.css">
-   <link rel="stylesheet" href="assets/css/telaLogin/telaLogin__titulo.css">
-   <link rel="stylesheet" href="assets/css/telaLogin/login__form.css">
-
+   <link rel="stylesheet" href="assets/css/cabecalho/cabecalho__adm.css">
+   <link rel="stylesheet" href="assets/css/novoProduto/novoProduto.css">
+   <link rel="stylesheet" href="assets/css/novoProduto/novoProduto__titulo.css">
+   <link rel="stylesheet" href="assets/css/novoProduto/novoProduto__form.css">   
    <link rel="stylesheet" href="assets/css/institucional/institucional.css">
    <link rel="stylesheet" href="assets/css/institucional/institucional__container.css">
    <link rel="stylesheet" href="assets/css/institucional/institucional__coluna1.css">
@@ -38,17 +38,39 @@
                <input class="pesquisar__input" type="text" placeholder="Pesquisar" maxlength="50">
                <img class="pesquisar_img" src="assets/img/lupa.png" alt="Lupa">
             </div>
-         </div> 
+         </div>
+         <div class="cabecalho__adm">
+            <a href="#"><button class="adm__button">Menu administrador</button></a>
+         </div>
       </div>
    </header>
 
-   <section class="telaLogin">
-      <div class="telaLogin__container">
-         <form class="login__form" action="">
-            <h3 class="telaLogin__titulo">Iniciar Sessão</h3>
-            <input class="login__input" type="email" name="email" id="email" placeholder="Email" required>
-            <input class="login__input" type="password" name="password" id="password" placeholder="Senha" required>
-            <button id="botaoLogin" class="loginForm__botao">Entrar</button>
+   <section class="novoProduto">
+      <div class="novoProduto__container">
+         <form class="novoProduto__form" id="atualizarProdutoForm" action="">
+            <h3 class="novoProduto__titulo">Atualizar produto</h3>
+            <div class="novoProduto__campo">
+               <label class="novoProduto__label" for="nomeProduto">Nome do produto</label>
+               <input id="nomeProduto" class="novoProduto__input" type="text" name="nomeProduto" required>
+            </div>
+            
+            <div class="novoProduto__campo">
+               <label class="novoProduto__label" for="precoProduto">Preço do produto</label>
+               <input id="precoProduto" class="novoProduto__input" type="number" name="precoProduto" maxlength="5" required>
+            </div>
+
+            <div class="novoProduto__campo">
+               <label class="novoProduto__label" for="urlIMGProduto">URL da imagem</label>
+               <input id="urlIMGProduto" class="novoProduto__input" type="text" name="urlIMGProduto" required>
+            </div>
+            
+            <div class="novoProduto__campo">
+               <label class="novoProduto__label" for="categoria">Categoria</label>
+               <input id="categoriaProduto" class="novoProduto__input" type="text" name="categoria" required>
+            </div>
+            
+            <textarea id="descricaoProduto" class="novoProduto__textarea" name="" placeholder="Descricao do produto"></textarea>
+            <button class="novoProduto__botao">Atualizar produto</button>
          </form>
       </div>
    </section>
@@ -84,6 +106,7 @@
       <p class="rodape_decricao">Desenvolvido por <a class="rodape__link" href="https://github.com/Gleendon" target="_blank">Gleendon</a> <br> 2022 </p>
    </footer>
 
-   <script src="assets/js/login.js"></script>
+   <script type="module" src="assets/js/modificarProduto.js"></script>
+
 </body>
 </html>

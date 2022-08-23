@@ -6,6 +6,7 @@
 .faleConosco__form{
    display: flex;
    flex-direction: column;
+   row-gap: 8px;
 }
 
 .faleConosco__titulo{
@@ -16,14 +17,12 @@
 
 .form__input{
    border: none;
-   margin-bottom: 16px;
    padding-top: 16px;
    padding-left: 12px;
 }
 
 .form__textarea{
    border: none;
-   margin-bottom: 8px;
    padding-top: 16px;
    padding-left: 12px;
    resize: none;

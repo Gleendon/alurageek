@@ -1,0 +1,156 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "img": "assets/img/starwars/produto1.png",
+      "categoria": "starwars",
+      "nome": "Produto XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 2,
+      "img": "assets/img/starwars/produto2.png",
+      "categoria": "starwars",
+      "nome": "Produto XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 3,
+      "img": "assets/img/starwars/produto3.png",
+      "categoria": "starwars",
+      "nome": "Produto XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 4,
+      "img": "assets/img/starwars/produto4.png",
+      "categoria": "starwars",
+      "nome": "Produto XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 5,
+      "img": "assets/img/starwars/produto5.png",
+      "categoria": "starwars",
+      "nome": "Produto XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 6,
+      "img": "assets/img/starwars/produto6.png",
+      "categoria": "starwars",
+      "nome": "Produto XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 8,
+      "img": "assets/img/console/consoleNintendo.png",
+      "categoria": "consoles",
+      "nome": "Console XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 9,
+      "img": "assets/img/console/consoleXBOX.png",
+      "categoria": "consoles",
+      "nome": "Console XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 10,
+      "img": "assets/img/console/controle.png",
+      "categoria": "consoles",
+      "nome": "Console XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 11,
+      "img": "assets/img/console/controleXBOX.png",
+      "categoria": "consoles",
+      "nome": "Console XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 12,
+      "img": "assets/img/console/gameRETRO.png",
+      "categoria": "consoles",
+      "nome": "Console XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 13,
+      "img": "assets/img/console/ps4.png",
+      "categoria": "consoles",
+      "nome": "Console XY",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 14,
+      "img": "assets/img/diversos/atari.png",
+      "categoria": "diversos",
+      "nome": "Camisa Atari",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 15,
+      "img": "assets/img/diversos/despertador.png",
+      "categoria": "diversos",
+      "nome": "Despertador Retrô",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 16,
+      "img": "assets/img/diversos/pikachu.png",
+      "categoria": "diversos",
+      "nome": "Pelucia Pikachu",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 17,
+      "img": "assets/img/diversos/snes.png",
+      "categoria": "diversos",
+      "nome": "Camisa SNES",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 18,
+      "img": "assets/img/diversos/sonic.png",
+      "categoria": "diversos",
+      "nome": "Boneco Sonic",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "id": 19,
+      "img": "assets/img/diversos/vr.png",
+      "categoria": "diversos",
+      "nome": "Óculos VR",
+      "preco": "100",
+      "descricao": ""
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/pt/3/3f/Woody_Woodpecker.png",
+      "categoria": "diversos",
+      "nome": "Pica-pau",
+      "preco": "150",
+      "descricao": "",
+      "id": 20
+    }
+  ]
+}

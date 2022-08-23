@@ -50,26 +50,26 @@
          <form class="novoProduto__form" action="">
             <h3 class="novoProduto__titulo">Adicionar novo produto</h3>
             <div class="novoProduto__campo">
-               <label class="novoProduto__label" for="urlProduto">URL da imagem</label>
-               <input class="novoProduto__input" type="text" name="urlProduto" id="" placeholder="" required>
+               <label class="novoProduto__label" for="nomeProduto">Nome do produto</label>
+               <input id="nomeProduto" class="novoProduto__input" type="text" name="nomeProduto" required>
+            </div>
+            
+            <div class="novoProduto__campo">
+               <label class="novoProduto__label" for="precoProduto">Preço do produto</label>
+               <input id="precoProduto" class="novoProduto__input" type="number" name="precoProduto" maxlength="5" required>
+            </div>
+
+            <div class="novoProduto__campo">
+               <label class="novoProduto__label" for="urlIMGProduto">URL da imagem</label>
+               <input id="urlIMGProduto" class="novoProduto__input" type="text" name="urlIMGProduto" required>
             </div>
             
             <div class="novoProduto__campo">
                <label class="novoProduto__label" for="categoria">Categoria</label>
-               <input class="novoProduto__input" type="text" name="categoria" id="" placeholder="" required>
-            </div>
-           
-            <div class="novoProduto__campo">
-               <label class="novoProduto__label" for="urlProduto">Nome do produto</label>
-               <input class="novoProduto__input" type="text" name="nomeProduto" id="" placeholder="" required>
+               <input id="categoriaProduto" class="novoProduto__input" type="text" name="categoria" required>
             </div>
             
-            <div class="novoProduto__campo">
-               <label class="novoProduto__label" for="urlProduto">Preço do produto</label>
-               <input class="novoProduto__input" type="text" name="precoProduto" id="" placeholder="" required>
-            </div>
-            
-            <textarea class="novoProduto__textarea" name="" id="" placeholder="Descricao do produto"></textarea>
+            <textarea id="descricaoProduto" class="novoProduto__textarea" name="" id="" placeholder="Descricao do produto"></textarea>
             <button class="novoProduto__botao">Adicionar produto</button>
          </form>
       </div>
@@ -105,5 +105,8 @@
    <footer class="rodape">
       <p class="rodape_decricao">Desenvolvido por <a class="rodape__link" href="https://github.com/Gleendon" target="_blank">Gleendon</a> <br> 2022 </p>
    </footer>
+
+   <script type="module" src="assets/js/novoProduto.js"></script>
+
 </body>
 </html>

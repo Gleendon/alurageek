@@ -6,13 +6,13 @@
 }
 
 .produtos__editar{
+   background-color: rgba(0, 0, 0, 0.445);
    width: 100%;
    position: absolute;
    display: flex;
    justify-content: flex-end;
    column-gap: 24px;
-   padding-top: 11px;
-   padding-right: 11px;
+   padding: 5px;
 }
 
 .card__titulo{
@@ -47,11 +47,20 @@
    .produtos__card:nth-child(6), .produtos__card:nth-child(5){
       display: none;
    }
+
+   .card__img{
+      width: 156px;
+      height: 174px;
+   }
 }
 
 @media screen and (min-width: 768px){
    .produtos__card{
       height: 252px;
+      width: 164px;
+   }
+
+   .card__img{
       width: 164px;
    }
 }
@@ -64,5 +73,9 @@
 
    .produtos__card:nth-child(6), .produtos__card:nth-child(5){
       display: flex;
+   }
+
+   .card__img{
+      width: 176px;
    }
 }

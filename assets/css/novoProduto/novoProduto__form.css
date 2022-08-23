@@ -12,6 +12,7 @@
    border-radius: 4px;
    padding-left: 12px;
    padding-top: 8px;
+   row-gap: 5px;
 }
 
 .novoProduto__input{

@@ -1,26 +1,25 @@
-.starwars{
+.secao{
    display: flex;
    justify-content: center;
 }
 
 
 @media screen and (min-width: 0){
-   .starwars{
+   .secao{
       margin-top: 16px;
       padding: 0 16px;
    }
 }
 
 @media screen and (min-width: 760px){
-   .starwars{
+   .secao{
       margin-top: 32px;
       padding: 0 32px;
    }
 }
 
 @media screen and (min-width: 1024px){
-   .starwars{
-      margin-top: 64px;
+   .secao{
       padding: 0 152px;
    }
 }

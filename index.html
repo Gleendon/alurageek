@@ -17,19 +17,14 @@
    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho__login.css">
    <link rel="stylesheet" href="assets/css/destaque/destaque.css">
    <link rel="stylesheet" href="assets/css/destaque/destaque__descricao.css">
+   <link rel="stylesheet" href="assets/css/escolherCategoria/escolherCategoria.css">
    <link rel="stylesheet" href="assets/css/secao/secao__titulo.css">
    <link rel="stylesheet" href="assets/css/secao/verTudo.css">
    <link rel="stylesheet" href="assets/css/produtos/produtos__lista.css">
    <link rel="stylesheet" href="assets/css/produtos/produtos__card.css">
-   <link rel="stylesheet" href="assets/css/starwars/starwars.css">
-   <link rel="stylesheet" href="assets/css/starwars/starwars__container.css">
-   <link rel="stylesheet" href="assets/css/starwars/starwars__cabecalho.css">
-   <link rel="stylesheet" href="assets/css/consoles/consoles.css">
-   <link rel="stylesheet" href="assets/css/consoles/consoles__container.css">
-   <link rel="stylesheet" href="assets/css/consoles/consoles__cabecalho.css">
-   <link rel="stylesheet" href="assets/css/diversos/diversos.css">
-   <link rel="stylesheet" href="assets/css/diversos/diversos__container.css">
-   <link rel="stylesheet" href="assets/css/diversos/diversos__cabecalho.css">
+   <link rel="stylesheet" href="assets/css/secao/secao.css">
+   <link rel="stylesheet" href="assets/css/secao/secao__container.css">
+   <link rel="stylesheet" href="assets/css/secao/secao__cabecalho.css">
    <link rel="stylesheet" href="assets/css/institucional/institucional.css">
    <link rel="stylesheet" href="assets/css/institucional/institucional__container.css">
    <link rel="stylesheet" href="assets/css/institucional/institucional__coluna1.css">
@@ -61,156 +56,25 @@
       <div class="destaque__descricao">
          <h2 class="descricao__titulo">Dezembro Promocional</h2>
          <p class="descricao__texto">Produtos selecionados com 33% de desconto</p>
-         <button class="descricao__botao">Ver Consoles</button>
+         <a href="#consoles"><button class="descricao__botao">Ver Consoles</button></a>
       </div>
    </section>
 
-   <section class="starwars">
-      <div class="starwars__container">
-         <div class="starwars__cabecalho">
-            <h3 class="secao__titulo">Star Wars</h3>
-            <a href="#" class="verTudo">Ver Tudo &#5586</a>
-         </div>
-         <div class="starwars__produtos">
-            <ul class="produtos__lista">
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/starwars/produto1.png" alt="">
-                  <h4 class="card__titulo">Produto XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/starwars/produto2.png" alt="">
-                  <h4 class="card__titulo">Produto XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/starwars/produto3.png" alt="">
-                  <h4 class="card__titulo">Produto XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/starwars/produto4.png" alt="">
-                  <h4 class="card__titulo">Produto XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/starwars/produto5.png" alt="">
-                  <h4 class="card__titulo">Produto XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/starwars/produto6.png" alt="">
-                  <h4 class="card__titulo">Produto XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-            </ul>
-         </div>
+   <section class="escolherCategoria">
+      <div class="escolherCategoria__container">
+         <p>Escolha a categoria dos produtos:</p>
+         <select name="selecionarCategoria" id="selecionarCategoria">
+            <option value="todosProdutos">Todos os Produtos</option>
+            <option value="starwars">StarWars</option>
+            <option value="consoles">Consoles</option>
+            <option value="diversos">Diversos</option>
+         </select>
       </div>
    </section>
+   
+   <main class="conteudoPrincipal">
 
-   <section class="consoles">
-      <div class="consoles__container">
-         <div class="consoles__cabecalho">
-            <h3 class="secao__titulo">Consoles</h3>
-            <a href="#" class="verTudo">Ver Tudo &#5586</a>
-         </div>
-         <div class="consoles__produtos">
-            <ul class="produtos__lista">
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/console/consoleNintendo.png" alt="">
-                  <h4 class="card__titulo">Console XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/console/consoleXBOX.png" alt="">
-                  <h4 class="card__titulo">Console XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/console/controle.png" alt="">
-                  <h4 class="card__titulo">Console XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/console/controleXBOX.png" alt="">
-                  <h4 class="card__titulo">Console XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/console/gameRETRO.png" alt="">
-                  <h4 class="card__titulo">Console XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/console/ps4.png" alt="">
-                  <h4 class="card__titulo">Console XY</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </section>
-
-   <section class="diversos">
-      <div class="diversos__container">
-         <div class="diversos__cabecalho">
-            <h3 class="secao__titulo">Diversos</h3>
-            <a href="#" class="verTudo">Ver Tudo &#5586</a>
-         </div>
-         <div class="diversos__produtos">
-            <ul class="produtos__lista">
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/diversos/atari.png" alt="">
-                  <h4 class="card__titulo">Camisa Atari</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/diversos/despertador.png" alt="">
-                  <h4 class="card__titulo">Despertador Retrô</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/diversos/pikachu.png" alt="">
-                  <h4 class="card__titulo">Pelucia Pikachu</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/diversos/snes.png" alt="">
-                  <h4 class="card__titulo">Camisa SNES</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/diversos/sonic.png" alt="">
-                  <h4 class="card__titulo">Boneco Sonic</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-               <li class="produtos__card">
-                  <img class="card__img" src="assets/img/diversos/vr.png" alt="">
-                  <h4 class="card__titulo">Óculos VR</h4>
-                  <p class="card__preco">R$ 100,00</p>
-                  <a class="card__botao" href="#">Ver Produto</a>
-               </li>
-            </ul>
-         </div>
-      </div>
-   </section>
+   </main>
 
    <section class="institucional">
       <div class="institucional__container">
@@ -231,17 +95,21 @@
             <h4 class="faleConosco__titulo">Fale Conosco</h4>
             <form class="faleConosco__form" action="">
                <label class="form__nome" for="nome">Nome</label>
-               <input class="form__input" type="text" name="nome" id="nome">
-               <textarea class="form__textarea" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+               <input class="form__input" type="text" name="nome" id="nome" data-tipo="nome" maxlength="40" required>
+               <span class="nome-mensagem-erro"></span>
+
+               <textarea class="form__textarea" name="mensagem" id="mensagem" data-tipo="mensagem" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+               <span class="texto-mensagem-erro"></span>
+
                <button class="form__botao">Enviar mensagem</button>
             </form>
       </div>
-
    </section>
 
    <footer class="rodape">
       <p class="rodape_decricao">Desenvolvido por <a class="rodape__link" href="https://github.com/Gleendon" target="_blank">Gleendon</a> <br> 2022 </p>
    </footer>
 
+<script type="module" src="assets/js/index.js"></script>
 </body>
 </html>

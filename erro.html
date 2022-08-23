@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>AluraGeek | Login</title>
+   <title>AluraGeek</title>
    <link rel="stylesheet" href="assets/css/reset.css">
    <link rel="stylesheet" href="assets/css/normalize.css">
    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -14,11 +14,22 @@
    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho__container.css">
    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho__link.css">
    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho__pesquisar.css">
-
-   <link rel="stylesheet" href="assets/css/telaLogin/telaLogin.css">
-   <link rel="stylesheet" href="assets/css/telaLogin/telaLogin__titulo.css">
-   <link rel="stylesheet" href="assets/css/telaLogin/login__form.css">
-
+   <link rel="stylesheet" href="assets/css/cabecalho/cabecalho__login.css">
+   <link rel="stylesheet" href="assets/css/destaque/destaque.css">
+   <link rel="stylesheet" href="assets/css/destaque/destaque__descricao.css">
+   <link rel="stylesheet" href="assets/css/secao/secao__titulo.css">
+   <link rel="stylesheet" href="assets/css/secao/verTudo.css">
+   <link rel="stylesheet" href="assets/css/produtos/produtos__lista.css">
+   <link rel="stylesheet" href="assets/css/produtos/produtos__card.css">
+   <link rel="stylesheet" href="assets/css/starwars/starwars.css">
+   <link rel="stylesheet" href="assets/css/starwars/starwars__container.css">
+   <link rel="stylesheet" href="assets/css/starwars/starwars__cabecalho.css">
+   <link rel="stylesheet" href="assets/css/consoles/consoles.css">
+   <link rel="stylesheet" href="assets/css/consoles/consoles__container.css">
+   <link rel="stylesheet" href="assets/css/consoles/consoles__cabecalho.css">
+   <link rel="stylesheet" href="assets/css/diversos/diversos.css">
+   <link rel="stylesheet" href="assets/css/diversos/diversos__container.css">
+   <link rel="stylesheet" href="assets/css/diversos/diversos__cabecalho.css">
    <link rel="stylesheet" href="assets/css/institucional/institucional.css">
    <link rel="stylesheet" href="assets/css/institucional/institucional__container.css">
    <link rel="stylesheet" href="assets/css/institucional/institucional__coluna1.css">
@@ -26,6 +37,7 @@
    <link rel="stylesheet" href="assets/css/institucional/institucional__nav.css">
    <link rel="stylesheet" href="assets/css/institucional/faleConosco.css">
    <link rel="stylesheet" href="assets/css/rodape.css">
+
 </head>
 <body>
    <header class="cabecalho">
@@ -38,52 +50,22 @@
                <input class="pesquisar__input" type="text" placeholder="Pesquisar" maxlength="50">
                <img class="pesquisar_img" src="assets/img/lupa.png" alt="Lupa">
             </div>
-         </div> 
+         </div>  
+         <div class="cabecalho__login">
+            <a href="login.html"><button class="login__button">Login</button></a>
+         </div>
       </div>
    </header>
 
-   <section class="telaLogin">
-      <div class="telaLogin__container">
-         <form class="login__form" action="">
-            <h3 class="telaLogin__titulo">Iniciar Sessão</h3>
-            <input class="login__input" type="email" name="email" id="email" placeholder="Email" required>
-            <input class="login__input" type="password" name="password" id="password" placeholder="Senha" required>
-            <button id="botaoLogin" class="loginForm__botao">Entrar</button>
-         </form>
+   <section class="destaque">
+      <div class="destaque__descricao">
+         <h2 class="descricao__titulo">Você não sabe de NADA, Glendon Snow</h2>
       </div>
-   </section>
-
-   <section class="institucional">
-      <div class="institucional__container">
-         <div class="institucional__coluna1">
-            <div class="institucional__logo">
-               <img class="logo__img" src="assets/img/Logo.png" alt="">
-            </div>
-            <div class="institucional__nav">
-               <a class="nav__link" href="#">Quem somos nós</a>
-               <a class="nav__link" href="#">Política de privacidade</a>
-               <a class="nav__link" href="#">programa de fidelidade</a>
-               <a class="nav__link" href="#">Nossas Lojas</a>
-               <a class="nav__link" href="#">Quero ser franqueado</a>
-               <a class="nav__link" href="#">Anuncie aqui</a>
-            </div>
-         </div>
-         <div class="faleConosco">
-            <h4 class="faleConosco__titulo">Fale Conosco</h4>
-            <form class="faleConosco__form" action="">
-               <label class="form__nome" for="nome">Nome</label>
-               <input class="form__input" type="text" name="nome" id="nome">
-               <textarea class="form__textarea" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-               <button class="form__botao">Enviar mensagem</button>
-            </form>
-      </div>
-
    </section>
 
    <footer class="rodape">
       <p class="rodape_decricao">Desenvolvido por <a class="rodape__link" href="https://github.com/Gleendon" target="_blank">Gleendon</a> <br> 2022 </p>
    </footer>
 
-   <script src="assets/js/login.js"></script>
 </body>
 </html>
