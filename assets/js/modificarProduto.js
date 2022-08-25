@@ -35,3 +35,8 @@ import { produto, atualizaProduto } from "./acessarProdutos.js"
       }
    })
 })()
+
+const botaoAdministrador = document.querySelector("#botaoADM")
+botaoAdministrador.addEventListener("click", ()=>{
+   window.location.href = "editarProdutos.html"
+})

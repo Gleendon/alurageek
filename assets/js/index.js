@@ -74,7 +74,6 @@ const criarCard = (produto) =>{
    }
 }
 
-
 //Exibir na index a categoria selecionada
 const categoriaSelecionada = document.querySelector("#selecionarCategoria")
 categoriaSelecionada.addEventListener('change', () => {
@@ -82,4 +81,12 @@ categoriaSelecionada.addEventListener('change', () => {
    exibirCategoria(categoriaSelecionada)
 })
 
+const botaoDestaque = document.querySelector("#botaoDestaque")
+botaoDestaque.addEventListener("click", ()=>{
+   categoriaSelecionada.value = "consoles"
+   exibirCategoria("consoles")
+})
+
+
 document.onload = exibirCategoria(categoriaSelecionada.value)
+

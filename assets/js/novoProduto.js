@@ -1,8 +1,5 @@
 import { criaProduto } from "./acessarProdutos.js"
 
-const botaoAddProduto = document.querySelector(".novoProduto__botao")
-
-
 //Coletando dados do form
 const salvarProduto = () =>{ 
    const img = document.querySelector("#urlIMGProduto").value
@@ -25,10 +22,14 @@ const limparForm = () =>{
    campos.forEach(campos => campos.value = "")
 }
 
-
-
 //eventos
+const botaoAddProduto = document.querySelector(".novoProduto__botao")
 botaoAddProduto.addEventListener('click', (event)=>{
    event.preventDefault()
    salvarProduto()
+})
+
+const botaoAdministrador = document.querySelector("#botaoADM")
+botaoAdministrador.addEventListener("click", ()=>{
+   window.location.href = "editarProdutos.html"
 })
