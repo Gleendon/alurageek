@@ -51,8 +51,8 @@
     {
       "id": 8,
       "img": "assets/img/console/consoleNintendo.png",
-      "categoria": "Nintendinho (NES)",
-      "nome": "Console XY",
+      "categoria": "consoles",
+      "nome": "Nintendinho (NES)",
       "preco": "2499",
       "descricao": ""
     },
@@ -83,8 +83,8 @@
     {
       "id": 12,
       "img": "assets/img/console/gameRETRO.png",
-      "categoria": "GameBoy Color Original",
-      "nome": "Console XY",
+      "categoria": "consoles",
+      "nome": "GameBoy Color Original",
       "preco": "599",
       "descricao": ""
     },
